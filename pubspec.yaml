@@ -1,0 +1,37 @@
+name: jod_calculator
+description: "A fully functional feature-rich calculator app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  math_expressions: ^2.2.0
+  google_fonts: ^2.1.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/appstore.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: 'assets/fonts/Poppins-Regular.ttf'
+        - asset: 'assets/fonts/Poppins-Bold.ttf'
+          weight: 700
